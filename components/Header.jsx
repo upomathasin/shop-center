@@ -15,7 +15,7 @@ export default function Header() {
             height={5}
           />
           <Link href="/">
-            <Image src="/lws-logo-black.svg" height={10} width={200} alt="" />
+            <Image src="/lws-logo-black.svg" height={10} width={150} alt="" />
           </Link>
         </div>
       </div>

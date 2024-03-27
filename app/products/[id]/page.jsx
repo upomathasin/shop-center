@@ -25,7 +25,7 @@ export default function ProductId({ params }) {
               alt=""
             />
 
-            <div className="flex gap-4 mt-4 overflow-scroll">
+            <div className="flex gap-4 mt-4  overflow-x-scroll">
               {product.images.map((image, index) => {
                 return (
                   <Image

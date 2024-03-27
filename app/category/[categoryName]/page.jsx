@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import allProducts from "../../../data/allProducts.json";
 import Product from "@/components/Product";
 import CustomLink from "@/components/CustomLink";
-export default function page() {
+export default function Page() {
   const path = usePathname();
   const categoryName = path.split("/")[2];
 

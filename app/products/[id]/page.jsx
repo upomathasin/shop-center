@@ -29,6 +29,9 @@ export default function ProductId({ params }) {
               {product.images.map((image, index) => {
                 return (
                   <Image
+                    onClick={() => {
+                      setProduct({ ...product, thumbnail: image });
+                    }}
                     key={index}
                     width={100}
                     height={100}
